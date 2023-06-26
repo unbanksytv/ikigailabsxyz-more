@@ -133,6 +133,12 @@ const Navbar = () => {
             <Link href="/portfolio">
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
             </Link>
+            <Link href="https://ikigailabsxyz-curated.vercel.app/collection-rankings">
+              <NavItem active={false}>Curated</NavItem>
+            </Link>
+            <Link href="https://ikigailabsxyz-artblocks.vercel.app/collection-rankings">
+              <NavItem active={false}>Art Blocks</NavItem>
+            </Link>
             <Link href="https://livethelife.tv">
               <NavItem active={false}>Editorial</NavItem>
             </Link>
